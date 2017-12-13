@@ -1,0 +1,426 @@
+/* General */
+body {
+    /*background-color: rgba(232, 232, 232, 0.64);*/
+    background: -webkit-linear-gradient(135deg, rgb(166, 211, 252), rgb(232, 171, 156));
+    background: linear-gradient(135deg, rgb(166, 211, 252), rgb(232, 171, 156));
+
+}
+
+.bg-aqua-gradient {
+    background: linear-gradient(40deg, #2096ff, #05ffa3);
+}
+
+.pink-cyan-gradient {
+    background: linear-gradient(40deg, pink, cyan);
+}
+
+.cyan-hotpink-gradient {
+    /*background-color: #2ea8e5;*/
+    background: linear-gradient(cyan, hotpink);
+}
+
+/* Navigation */
+nav.main-nav {
+    background-image: url("../img/border_horizontal.png"), url("../img/border_horizontal.png");
+    background-repeat: repeat-x;
+    background-position: 0px top, 0px bottom;
+}
+
+nav.main-nav .nav-link:hover {
+    background-color: rgb(40, 180, 170);
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+nav.main-nav .nav-link {
+    transition: background-color .3s ease;
+}
+
+nav.main-nav .nav-link {
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2rem;
+}
+
+/* Nav for Mobile */
+#mobile-nav ul .nav-link:hover {
+    background-color: rgb(40, 180, 170);
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#mobile-nav ul .nav-link {
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2rem;
+    /*background-color: #05ffa3;*/
+}
+
+/*Social Icons*/
+.socials ul li {
+    position: relative;
+    display: inline-block;
+}
+
+/*.socials ul li a::before {*/
+/*display: inline-block;*/
+/*padding: 0 1rem;*/
+/*}*/
+
+.socials .fa-facebook-official, .fa-twitter-square, .fa-youtube-square, .fa-instagram, .fa-pinterest-square {
+    color: hotpink;
+}
+
+.socials .fa-facebook-official:hover {
+    color: #d3628f;
+}
+
+.socials .fa-twitter-square:hover {
+    color: #d3628f;
+}
+
+.socials .fa-youtube-square:hover {
+    color: #d3628f;
+}
+
+.socials .fa-instagram:hover {
+    color: #d3628f;
+}
+
+.socials .fa-pinterest-square:hover {
+    color: #d3628f;
+}
+
+/* Carousel */
+.carousel-caption h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8rem;
+    font-weight: 900;
+    /*color: #ffff;*/
+
+}
+
+h2 {
+    color: #e082a8;
+    font-size: 4rem;
+}
+
+h2 span {
+    font-size: 2.4rem;
+}
+
+h1, h2 {
+    font-family: 'Mukta Malar', sans-serif;
+    color: black;
+    line-height: 2.4rem;
+}
+
+h1 span, h2 span {
+    font-family: 'Pacifico', sans-serif;
+    display: block;
+    color: hotpink;
+}
+
+h3 {
+    font-family: 'Mukta Malar', sans-serif;
+    color: black;
+    line-height: 2.4rem;
+}
+
+h3 span {
+    font-family: 'Pacifico', sans-serif;
+    display: block;
+    color: hotpink;
+}
+
+.new-website p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    color: #979797;
+}
+
+/* Image Links*/
+.image-links img {
+    /*border: 6px solid white;*/
+    -webkit-transition: transform .3s ease;
+    -ms-transition: transform .3s ease;
+    transition: transform .3s ease;
+}
+
+.image-links img:hover {
+    -webkit-transform: scale(1.2) rotate(10deg);
+    -ms-transform: scale(1.2) rotate(10deg);
+    transform: scale(1.2) rotate(10deg);
+
+}
+
+.image-info {
+    background-color: white;
+    margin-top: -60px;
+}
+
+.image-info .btn-primary {
+    background-color: hotpink;
+    border: none;
+    border-radius: 0;
+    /*padding: 1rem 0;*/
+}
+
+.image-info .btn-primary:hover {
+    background-color: rgba(158, 22, 82, 0.87);
+}
+
+/* Business Hours */
+.business-hours {
+    color: white;
+}
+
+.business-hours h3 {
+    color: white;
+    font-size: 2.6rem;
+}
+
+.bg-hours {
+    background-image: url("../img/bg_hours.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+}
+
+#business-hours.table {
+    border: 1px solid hotpink;
+}
+
+#business-hours.table td, .table thead th {
+    border: none;
+}
+
+#business-hours.table tbody tr td {
+    padding: .35rem;
+}
+
+#business-hours .table-danger, .table-hover .table-danger:hover {
+    background-color: hotpink;
+}
+
+/*Product Section*/
+.products .card {
+    border: none;
+}
+
+.products .card a {
+    color: black;
+    text-decoration: none;
+}
+
+.products .card h3 {
+    color: pink;
+    font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;
+}
+
+@media (max-width: 576px) {
+    .products .card h3 {
+        font-size: 1.3rem;
+    }
+}
+
+.products .card p {
+    font-size: .8rem;
+}
+
+.products .card p.price {
+    font-size: 1.5rem;
+    color: #979797;
+}
+
+.price {
+    font-size: 1.5rem;
+    color: #979797;
+}
+
+/* Product Details page*/
+aside.product_detail {
+    color: grey;
+}
+
+aside.product_detail h3 {
+    color: yellow;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+aside.product_detail p.price {
+    font-size: 3rem;
+    color: white;
+}
+
+/* Appointment */
+.appointment {
+    background-image: url("../img/bg_appointment.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .appointment {
+        background-size: cover;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .appointment h3 {
+        font-size: 23px !important;
+    }
+}
+
+.appointment h3 {
+    color: white;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.appointment p {
+    line-height: 2.6rem;
+}
+
+.appointment .btn-primary {
+    padding: 1rem 5rem;
+    border: none;
+    border-radius: 0;
+    background: linear-gradient(#ff3ad5, hotpink);
+}
+
+.appointment .btn-primary:hover {
+    background: linear-gradient(rgba(255, 48, 189, 0.71), #e3679b);
+}
+
+/* Footer */
+.site-footer p.copyright {
+    color: #979797;
+    font-family: 'Lato', sans-serif;
+}
+
+/* For About US*/
+.hero {
+    position: relative;
+}
+
+.hero h2 {
+    background-color: cyan;
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    padding: 1rem 2rem 1rem 5rem;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.sidebar .hours {
+    /*background-color: #05ffa3;*/
+    color: white;
+}
+
+.sidebar .hours h3 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.sidebar .hours p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+
+.main-content p {
+    line-height: 2.1rem;
+}
+
+/* Services */
+#services .card-header {
+    background-color: hotpink;
+}
+
+#services .card-header h3 a {
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+}
+
+#services .card-block p {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+}
+
+aside.discount {
+    color: white;
+    -moz-background-clip: content-box;
+    -webkit-background-clip: content-box;
+    background-clip: content-box;
+}
+
+aside.discount h3 {
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+aside.discount p {
+    font-size: 1.2rem;
+}
+
+aside .coupon {
+    border: 2px dashed white;
+}
+
+aside .coupon span {
+    display: block;
+}
+
+/*For Contact Form*/
+.contact-form {
+    border: 2px solid #9a9a9a;
+    background-color: white;
+}
+
+.contact-form .btn-primary {
+    padding: 1rem 6rem;
+    border: none;
+    border-radius: 0;
+    background: linear-gradient(#ff3ad5, hotpink);
+}
+
+.contact-form .btn-primary:hover {
+    background: linear-gradient(rgba(255, 48, 189, 0.71), #e3679b);
+}
+
+/*For Product Input Form*/
+.my-form h2 {
+    color: red;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+
+.danger-text {
+    color: #ff3547;
+}
+
+.default-text {
+    color: #2BBBAD;
+}
+
+.info-text {
+    color: #33b5e5;
+}
+
+/* For Product CRUD*/
+#addnewproduct h2{
+    font-size: 2rem;
+}
